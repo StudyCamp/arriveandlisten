@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 body {
     margin: 0;
+    font-family: "Quicksand";
     overflow: hidden;
 }
-
 .youtubeVideo {
     position: relative;
     min-width: 100%;
@@ -15,7 +17,6 @@ iframe {
     min-width: 100%;
     min-height: 100%;
     pointer-events: none;
-    
 }
 
 .navbar {
@@ -35,41 +36,29 @@ iframe {
     list-style: none;
     display: inline-block;
 }
-.navbar ul li {
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: 2px;
-}
 
+.navbar ul li {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 2px;
+}
+.navbar ul li a {
+  color: inherit;
+}
 .hide-btn {
     text-transform: uppercase;
     color: #fff;
     float: right;
 }
-
-/* * { box-sizing: border-box; }
-.youtubeVideo {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
+.hide-btn:hover {
+  color: #35bcf1;
+  cursor: default;
 }
-.youtubeVideo,
-.youtubeVideo video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
+.nav-button:hover {
+    color:#35bcf1;
+    cursor: default;
 }
-@media (min-aspect-ratio: 16/9) {
-  .youtubeVideo { height: 300%; top: -100%; }
-}
-@media (max-aspect-ratio: 16/9) {
-  .youtubeVideo { width: 300%; left: -100%; }
-} */
