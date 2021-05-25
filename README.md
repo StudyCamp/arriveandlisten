@@ -1,6 +1,6 @@
-# Arrive And Listen  
+# Arrive-And-Listen  
 
-### Welcome to ArriveAndListen!  
+### Welcome to Arrive-And-Listen!  
 
 This is a frontend application developed using ReactJS that allows the user to roam and wander through the cities around the world.  
 
@@ -8,7 +8,7 @@ This is a frontend application developed using ReactJS that allows the user to r
 
 The Navbar contains a list of the cities you can visit and view. Feel free to start anywhere you like. Enjoy!   
 
-### ArriveAndListen - https://arriveandlisten.netlify.app/ 
+### ArriveAndListen App - https://arriveandlisten.netlify.app/ 
 
 #### Notes
 - Inspired by https://driveandlisten.herokuapp.com/  
