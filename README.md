@@ -1,6 +1,6 @@
 # Arrive-And-Listen  
 
-### Welcome to Arrive-And-Listen!  
+### Welcome to ArriveAndListen!  
 
 This is a frontend application developed using ReactJS that allows the user to roam and wander through the cities around the world.  
 
